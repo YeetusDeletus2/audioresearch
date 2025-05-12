@@ -2,7 +2,7 @@ import requests
 import csv
 
 # Change the data here
-file = 'Data/Dataset 1/bird_recordings10.csv'
+file = 'Data/Dataset1/birds.csv'
 page = 10
 records = 5000
 api_url = f"https://xeno-canto.org/api/3/recordings?query=grp:birds+cnt:Netherlands&per_page={records}&page={page}&key=952c49c88325d578539da1ea57554f057de58293"
